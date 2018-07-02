@@ -28,15 +28,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/version"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	certutil "k8s.io/client-go/util/cert"
-	"k8s.io/client-go/util/flowcontrol"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/client-go/pkg/version"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
+	certutil "github.com/yext/client-go/util/cert"
+	"github.com/yext/client-go/util/flowcontrol"
 )
 
 const (

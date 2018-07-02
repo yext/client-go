@@ -19,7 +19,7 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/sets"
 )
 
 // Test public interface

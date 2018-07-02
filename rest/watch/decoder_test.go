@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/api/core/v1"
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	runtimejson "k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
+	"github.com/yext/api/core/v1"
+	apiequality "github.com/yext/apimachinery/pkg/api/equality"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/serializer"
+	runtimejson "github.com/yext/apimachinery/pkg/runtime/serializer/json"
+	"github.com/yext/apimachinery/pkg/runtime/serializer/streaming"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/watch"
+	"github.com/yext/client-go/kubernetes/scheme"
+	restclientwatch "github.com/yext/client-go/rest/watch"
 )
 
 // getDecoder mimics how k8s.io/client-go/rest.createSerializers creates a decoder

@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	utilnet "k8s.io/apimachinery/pkg/util/net"
+	utilnet "github.com/yext/apimachinery/pkg/util/net"
 )
 
 // HTTPWrappersForConfig wraps a round tripper with any relevant layered

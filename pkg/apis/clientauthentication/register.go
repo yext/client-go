@@ -17,8 +17,8 @@ limitations under the License.
 package clientauthentication
 
 import (
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

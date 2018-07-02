@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	authorizationapi "k8s.io/api/authorization/v1beta1"
-	core "k8s.io/client-go/testing"
+	authorizationapi "github.com/yext/api/authorization/v1beta1"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeSelfSubjectRulesReviews) Create(srr *authorizationapi.SelfSubjectRulesReview) (result *authorizationapi.SelfSubjectRulesReview, err error) {

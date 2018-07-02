@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/clock"
+	"github.com/yext/apimachinery/pkg/util/clock"
 )
 
 func TestSlowBackoff(t *testing.T) {

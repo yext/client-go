@@ -17,12 +17,12 @@ limitations under the License.
 package dynamic
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/versioning"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/apimachinery/pkg/runtime/serializer/json"
+	"github.com/yext/apimachinery/pkg/runtime/serializer/versioning"
 )
 
 var watchScheme = runtime.NewScheme()

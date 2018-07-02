@@ -17,8 +17,8 @@ limitations under the License.
 package autoscalingv1
 
 import (
-	autoscalingapiv1 "k8s.io/api/autoscaling/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	autoscalingapiv1 "github.com/yext/api/autoscaling/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

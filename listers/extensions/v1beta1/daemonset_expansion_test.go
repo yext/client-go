@@ -19,12 +19,12 @@ package v1beta1
 import (
 	"testing"
 
-	"k8s.io/api/core/v1"
-	extensions "k8s.io/api/extensions/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/tools/cache"
+	"github.com/yext/api/core/v1"
+	extensions "github.com/yext/api/extensions/v1beta1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/apimachinery/pkg/util/sets"
+	"github.com/yext/client-go/tools/cache"
 )
 
 func TestDaemonSetLister(t *testing.T) {

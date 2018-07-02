@@ -21,8 +21,8 @@ import (
 	"errors"
 	"net/http"
 
-	"k8s.io/client-go/plugin/pkg/client/auth/exec"
-	"k8s.io/client-go/transport"
+	"github.com/yext/client-go/plugin/pkg/client/auth/exec"
+	"github.com/yext/client-go/transport"
 )
 
 // TLSConfigFor returns a tls.Config that will provide the transport level security defined

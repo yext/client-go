@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	v1alpha1 "k8s.io/client-go/kubernetes/typed/settings/v1alpha1"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v1alpha1 "github.com/yext/client-go/kubernetes/typed/settings/v1alpha1"
+	rest "github.com/yext/client-go/rest"
+	testing "github.com/yext/client-go/testing"
 )
 
 type FakeSettingsV1alpha1 struct {

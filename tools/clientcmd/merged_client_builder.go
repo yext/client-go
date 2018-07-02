@@ -20,10 +20,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "github.com/yext/client-go/rest"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
 )
 
 // DeferredLoadingClientConfig is a ClientConfig interface that is backed by a client config loader.

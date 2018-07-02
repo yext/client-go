@@ -19,11 +19,11 @@ package appsv1beta1
 import (
 	"fmt"
 
-	v1beta1 "k8s.io/api/apps/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	scheme "k8s.io/client-go/scale/scheme"
+	v1beta1 "github.com/yext/api/apps/v1beta1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime"
+	scheme "github.com/yext/client-go/scale/scheme"
 )
 
 // addConversions registers conversions between the internal version

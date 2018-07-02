@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/watch"
 )
 
 var nevererrc chan error

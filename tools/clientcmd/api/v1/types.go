@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime"
 )
 
 // Where possible, json tags match the cli argument names.

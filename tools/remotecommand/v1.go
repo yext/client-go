@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/golang/glog"
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
+	"github.com/yext/glog"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
 )
 
 // streamProtocolV1 implements the first version of the streaming exec & attach

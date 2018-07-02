@@ -23,10 +23,10 @@ package v1alpha1
 import (
 	unsafe "unsafe"
 
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	clientauthentication "k8s.io/client-go/pkg/apis/clientauthentication"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	conversion "github.com/yext/apimachinery/pkg/conversion"
+	runtime "github.com/yext/apimachinery/pkg/runtime"
+	clientauthentication "github.com/yext/client-go/pkg/apis/clientauthentication"
 )
 
 func init() {

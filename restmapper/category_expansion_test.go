@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 func TestCategoryExpansion(t *testing.T) {

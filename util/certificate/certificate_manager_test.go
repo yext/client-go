@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	certificates "k8s.io/api/certificates/v1beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/wait"
-	watch "k8s.io/apimachinery/pkg/watch"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
+	certificates "github.com/yext/api/certificates/v1beta1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	certificatesclient "github.com/yext/client-go/kubernetes/typed/certificates/v1beta1"
 )
 
 var storeCertData = newCertificateData(`-----BEGIN CERTIFICATE-----

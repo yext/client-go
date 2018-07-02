@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/clock"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
 )
 
 // Config contains all the settings for a Controller.

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	"github.com/yext/apimachinery/pkg/util/wait"
 )
 
 func TestSimpleQueue(t *testing.T) {

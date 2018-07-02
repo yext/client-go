@@ -19,12 +19,12 @@ package v1
 import (
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/types"
-	ref "k8s.io/client-go/tools/reference"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/fields"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/types"
+	ref "github.com/yext/client-go/tools/reference"
 )
 
 // The EventExpansion interface allows manually adding extra methods to the EventInterface.

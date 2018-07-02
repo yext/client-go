@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	"github.com/yext/apimachinery/pkg/util/diff"
 )
 
 func makeObjectReference(kind, name, namespace string) v1.ObjectReference {

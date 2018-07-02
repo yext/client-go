@@ -20,7 +20,7 @@ import (
 	"path"
 	"testing"
 
-	"k8s.io/api/core/v1"
+	"github.com/yext/api/core/v1"
 )
 
 func TestValidatesHostParameter(t *testing.T) {

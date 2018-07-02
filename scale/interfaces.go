@@ -17,8 +17,8 @@ limitations under the License.
 package scale
 
 import (
-	autoscalingapi "k8s.io/api/autoscaling/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	autoscalingapi "github.com/yext/api/autoscaling/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // ScalesGetter can produce a ScaleInterface

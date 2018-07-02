@@ -24,15 +24,15 @@ import (
 	"os"
 	"path/filepath"
 
-	appsv1 "k8s.io/api/apps/v1"
-	apiv1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/util/homedir"
-	"k8s.io/client-go/util/retry"
+	appsv1 "github.com/yext/api/apps/v1"
+	apiv1 "github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/client-go/kubernetes"
+	"github.com/yext/client-go/tools/clientcmd"
+	"github.com/yext/client-go/util/homedir"
+	"github.com/yext/client-go/util/retry"
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
+	// _ "github.com/yext/client-go/plugin/pkg/client/auth/gcp"
 )
 
 func main() {

@@ -19,12 +19,12 @@ limitations under the License.
 package v2beta1
 
 import (
-	v2beta1 "k8s.io/api/autoscaling/v2beta1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	types "k8s.io/apimachinery/pkg/types"
-	watch "k8s.io/apimachinery/pkg/watch"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	v2beta1 "github.com/yext/api/autoscaling/v2beta1"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	types "github.com/yext/apimachinery/pkg/types"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	scheme "github.com/yext/client-go/kubernetes/scheme"
+	rest "github.com/yext/client-go/rest"
 )
 
 // HorizontalPodAutoscalersGetter has a method to return a HorizontalPodAutoscalerInterface.

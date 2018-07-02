@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"sync"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 // streamProtocolV2 implements version 2 of the streaming protocol for attach

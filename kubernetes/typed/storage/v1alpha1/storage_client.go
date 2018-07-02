@@ -19,10 +19,10 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/storage/v1alpha1"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	v1alpha1 "github.com/yext/api/storage/v1alpha1"
+	serializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/client-go/kubernetes/scheme"
+	rest "github.com/yext/client-go/rest"
 )
 
 type StorageV1alpha1Interface interface {

@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	policy "k8s.io/api/policy/v1beta1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	core "k8s.io/client-go/testing"
+	policy "github.com/yext/api/policy/v1beta1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeEvictions) Evict(eviction *policy.Eviction) error {

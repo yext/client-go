@@ -27,9 +27,9 @@ import (
 	"strings"
 	"sync"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
+	"github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 // TODO move to API machinery and re-unify with kubelet/server/portfoward

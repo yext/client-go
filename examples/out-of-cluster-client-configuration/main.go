@@ -24,12 +24,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/client-go/kubernetes"
+	"github.com/yext/client-go/tools/clientcmd"
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
+	// _ "github.com/yext/client-go/plugin/pkg/client/auth/gcp"
 )
 
 func main() {

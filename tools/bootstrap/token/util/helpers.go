@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/tools/bootstrap/token/api"
+	"github.com/yext/apimachinery/pkg/util/sets"
+	"github.com/yext/client-go/tools/bootstrap/token/api"
 )
 
 // validBootstrapTokenChars defines the characters a bootstrap token can consist of

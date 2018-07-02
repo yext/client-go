@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/api/core/v1"
-	core "k8s.io/client-go/testing"
+	"github.com/yext/api/core/v1"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeNodes) PatchStatus(nodeName string, data []byte) (*v1.Node, error) {

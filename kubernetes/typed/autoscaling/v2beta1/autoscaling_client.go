@@ -19,10 +19,10 @@ limitations under the License.
 package v2beta1
 
 import (
-	v2beta1 "k8s.io/api/autoscaling/v2beta1"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	v2beta1 "github.com/yext/api/autoscaling/v2beta1"
+	serializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/client-go/kubernetes/scheme"
+	rest "github.com/yext/client-go/rest"
 )
 
 type AutoscalingV2beta1Interface interface {

@@ -20,10 +20,10 @@ limitations under the License.
 package fake
 
 import (
-	autoscalingapi "k8s.io/api/autoscaling/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/scale"
-	"k8s.io/client-go/testing"
+	autoscalingapi "github.com/yext/api/autoscaling/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/client-go/scale"
+	"github.com/yext/client-go/testing"
 )
 
 // FakeScaleClient provides a fake implementation of scale.ScalesGetter.

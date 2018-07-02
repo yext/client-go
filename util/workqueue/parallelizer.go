@@ -19,7 +19,7 @@ package workqueue
 import (
 	"sync"
 
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
 )
 
 type DoWorkPieceFunc func(piece int)

@@ -19,9 +19,9 @@ package fake_test
 import (
 	"testing"
 
-	"k8s.io/apimachinery/pkg/version"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	fakeclientset "k8s.io/client-go/kubernetes/fake"
+	"github.com/yext/apimachinery/pkg/version"
+	fakediscovery "github.com/yext/client-go/discovery/fake"
+	fakeclientset "github.com/yext/client-go/kubernetes/fake"
 )
 
 func TestFakingServerVersion(t *testing.T) {

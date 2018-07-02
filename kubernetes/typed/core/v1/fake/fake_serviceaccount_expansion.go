@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	authenticationv1 "k8s.io/api/authentication/v1"
-	core "k8s.io/client-go/testing"
+	authenticationv1 "github.com/yext/api/authentication/v1"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeServiceAccounts) CreateToken(name string, tr *authenticationv1.TokenRequest) (*authenticationv1.TokenRequest, error) {

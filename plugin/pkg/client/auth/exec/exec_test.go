@@ -36,11 +36,11 @@ import (
 	"testing"
 	"time"
 
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/pkg/apis/clientauthentication"
-	"k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/client-go/pkg/apis/clientauthentication"
+	"github.com/yext/client-go/tools/clientcmd/api"
+	"github.com/yext/client-go/transport"
 )
 
 var (

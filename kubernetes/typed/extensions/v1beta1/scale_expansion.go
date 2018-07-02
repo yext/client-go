@@ -17,9 +17,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	"k8s.io/api/extensions/v1beta1"
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/api/extensions/v1beta1"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // The ScaleExpansion interface allows manually adding extra methods to the ScaleInterface.

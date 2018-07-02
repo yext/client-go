@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"k8s.io/client-go/util/cert"
+	"github.com/yext/client-go/util/cert"
 )
 
 func TestUpdateSymlinkExistingFileError(t *testing.T) {

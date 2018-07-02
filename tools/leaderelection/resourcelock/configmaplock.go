@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	corev1client "k8s.io/client-go/kubernetes/typed/core/v1"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	corev1client "github.com/yext/client-go/kubernetes/typed/core/v1"
 )
 
 // TODO: This is almost a exact replica of Endpoints lock.

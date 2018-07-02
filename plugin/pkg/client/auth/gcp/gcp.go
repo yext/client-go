@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/pkg/util/yaml"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/util/jsonpath"
+	"github.com/yext/apimachinery/pkg/util/net"
+	"github.com/yext/apimachinery/pkg/util/yaml"
+	restclient "github.com/yext/client-go/rest"
+	"github.com/yext/client-go/util/jsonpath"
 )
 
 func init() {

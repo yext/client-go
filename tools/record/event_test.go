@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	k8sruntime "k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclient "k8s.io/client-go/rest"
-	ref "k8s.io/client-go/tools/reference"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	k8sruntime "github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	"github.com/yext/apimachinery/pkg/util/strategicpatch"
+	"github.com/yext/client-go/kubernetes/scheme"
+	restclient "github.com/yext/client-go/rest"
+	ref "github.com/yext/client-go/tools/reference"
 )
 
 type testEventSink struct {

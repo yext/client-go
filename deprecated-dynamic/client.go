@@ -22,14 +22,14 @@ package deprecated_dynamic
 import (
 	"strings"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/dynamic"
-	restclient "k8s.io/client-go/rest"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/types"
+	"github.com/yext/apimachinery/pkg/watch"
+	"github.com/yext/client-go/dynamic"
+	restclient "github.com/yext/client-go/rest"
 )
 
 // Interface is a Kubernetes client that allows you to access metadata

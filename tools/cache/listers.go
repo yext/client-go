@@ -17,14 +17,14 @@ limitations under the License.
 package cache
 
 import (
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
 )
 
 // AppendFunc is used to add a matching item to whatever list the caller is using

@@ -17,7 +17,7 @@ limitations under the License.
 package scheme
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
 )
 
 // This file contains our own "internal" version of scale that we use for conversions,

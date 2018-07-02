@@ -25,12 +25,12 @@ import (
 
 	"github.com/golang/groupcache/lru"
 
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/clock"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	"github.com/yext/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/strategicpatch"
+	"github.com/yext/client-go/util/flowcontrol"
 )
 
 const (

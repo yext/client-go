@@ -26,10 +26,10 @@ import (
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/adal"
 	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
+	"github.com/yext/apimachinery/pkg/util/net"
+	restclient "github.com/yext/client-go/rest"
 )
 
 const (

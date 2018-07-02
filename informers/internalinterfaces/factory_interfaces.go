@@ -21,10 +21,10 @@ package internalinterfaces
 import (
 	time "time"
 
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	kubernetes "k8s.io/client-go/kubernetes"
-	cache "k8s.io/client-go/tools/cache"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	runtime "github.com/yext/apimachinery/pkg/runtime"
+	kubernetes "github.com/yext/client-go/kubernetes"
+	cache "github.com/yext/client-go/tools/cache"
 )
 
 type NewInformerFunc func(kubernetes.Interface, time.Duration) cache.SharedIndexInformer

@@ -28,10 +28,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"golang.org/x/oauth2"
-	"k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
+	"github.com/yext/apimachinery/pkg/util/net"
+	restclient "github.com/yext/client-go/rest"
 )
 
 const (

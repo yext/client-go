@@ -23,11 +23,11 @@ import (
 
 	"github.com/googleapis/gnostic/OpenAPIv2"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/discovery"
-	restclient "k8s.io/client-go/rest"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/version"
+	"github.com/yext/client-go/discovery"
+	restclient "github.com/yext/client-go/rest"
 )
 
 // memCacheClient can Invalidate() to stay up-to-date with discovery

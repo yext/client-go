@@ -27,16 +27,16 @@ import (
 
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	v1beta1 "k8s.io/api/extensions/v1beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/kubernetes/scheme"
-	utiltesting "k8s.io/client-go/util/testing"
+	"github.com/yext/api/core/v1"
+	v1beta1 "github.com/yext/api/extensions/v1beta1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/apimachinery/pkg/types"
+	"github.com/yext/apimachinery/pkg/util/diff"
+	"github.com/yext/client-go/kubernetes/scheme"
+	utiltesting "github.com/yext/client-go/util/testing"
 )
 
 type TestParam struct {

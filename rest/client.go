@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/types"
+	"github.com/yext/client-go/util/flowcontrol"
 )
 
 const (

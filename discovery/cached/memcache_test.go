@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/discovery/fake"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/client-go/discovery/fake"
 )
 
 type fakeDiscovery struct {

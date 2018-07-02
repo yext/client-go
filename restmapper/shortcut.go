@@ -19,12 +19,12 @@ package restmapper
 import (
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/discovery"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/client-go/discovery"
 )
 
 // shortcutExpander is a RESTMapper that can be used for Kubernetes resources.   It expands the resource first, then invokes the wrapped

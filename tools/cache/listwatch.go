@@ -20,14 +20,14 @@ import (
 	"context"
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/pager"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/fields"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/watch"
+	restclient "github.com/yext/client-go/rest"
+	"github.com/yext/client-go/tools/pager"
 )
 
 // ListerWatcher is any object that knows how to perform an initial list and start a watch on a resource.

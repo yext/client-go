@@ -19,12 +19,12 @@ package scale
 import (
 	"fmt"
 
-	autoscaling "k8s.io/api/autoscaling/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/dynamic"
-	restclient "k8s.io/client-go/rest"
+	autoscaling "github.com/yext/api/autoscaling/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	serializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/client-go/dynamic"
+	restclient "github.com/yext/client-go/rest"
 )
 
 var scaleConverter = NewScaleConverter()

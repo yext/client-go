@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sort"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/tools/clientcmd/api"
+	"github.com/yext/apimachinery/pkg/conversion"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/client-go/tools/clientcmd/api"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	authorizationapi "k8s.io/api/authorization/v1"
+	authorizationapi "github.com/yext/api/authorization/v1"
 )
 
 type SelfSubjectRulesReviewExpansion interface {

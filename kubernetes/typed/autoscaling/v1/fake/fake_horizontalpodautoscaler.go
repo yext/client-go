@@ -19,13 +19,13 @@ limitations under the License.
 package fake
 
 import (
-	autoscalingv1 "k8s.io/api/autoscaling/v1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	labels "k8s.io/apimachinery/pkg/labels"
-	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	types "k8s.io/apimachinery/pkg/types"
-	watch "k8s.io/apimachinery/pkg/watch"
-	testing "k8s.io/client-go/testing"
+	autoscalingv1 "github.com/yext/api/autoscaling/v1"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	labels "github.com/yext/apimachinery/pkg/labels"
+	schema "github.com/yext/apimachinery/pkg/runtime/schema"
+	types "github.com/yext/apimachinery/pkg/types"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	testing "github.com/yext/client-go/testing"
 )
 
 // FakeHorizontalPodAutoscalers implements HorizontalPodAutoscalerInterface

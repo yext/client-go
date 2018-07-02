@@ -24,10 +24,10 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "github.com/yext/client-go/rest"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
 )
 
 // ConfigAccess is used by subcommands and methods in this package to load and modify the appropriate config files
@@ -467,7 +467,7 @@ func getConfigFromFile(filename string) (*clientcmdapi.Config, error) {
 func GetConfigFromFileOrDie(filename string) *clientcmdapi.Config {
 	config, err := getConfigFromFile(filename)
 	if err != nil {
-		glog.FatalDepth(1, err)
+		glog.FatalWithDepth(1, err)
 	}
 
 	return config

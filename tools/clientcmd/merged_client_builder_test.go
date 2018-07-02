@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "github.com/yext/client-go/rest"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
 )
 
 type testLoader struct {

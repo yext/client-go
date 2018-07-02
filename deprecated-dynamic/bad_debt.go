@@ -21,13 +21,13 @@ import (
 	"io"
 	"strings"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/apis/meta/v1/unstructured"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/client-go/kubernetes/scheme"
+	"github.com/yext/client-go/rest"
 )
 
 // dynamicCodec is a codec that wraps the standard unstructured codec

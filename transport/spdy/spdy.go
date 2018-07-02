@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/httpstream/spdy"
-	restclient "k8s.io/client-go/rest"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
+	"github.com/yext/apimachinery/pkg/util/httpstream/spdy"
+	restclient "github.com/yext/client-go/rest"
 )
 
 // Upgrader validates a response from the server after a SPDY upgrade.

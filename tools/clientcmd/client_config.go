@@ -24,12 +24,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"github.com/imdario/mergo"
 
-	restclient "k8s.io/client-go/rest"
-	clientauth "k8s.io/client-go/tools/auth"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "github.com/yext/client-go/rest"
+	clientauth "github.com/yext/client-go/tools/auth"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
 )
 
 var (

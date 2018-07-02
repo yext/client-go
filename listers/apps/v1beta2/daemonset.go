@@ -19,10 +19,10 @@ limitations under the License.
 package v1beta2
 
 import (
-	v1beta2 "k8s.io/api/apps/v1beta2"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	v1beta2 "github.com/yext/api/apps/v1beta2"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/client-go/tools/cache"
 )
 
 // DaemonSetLister helps list DaemonSets.

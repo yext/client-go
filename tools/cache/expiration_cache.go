@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
-	"k8s.io/apimachinery/pkg/util/clock"
+	"github.com/yext/glog"
+	"github.com/yext/apimachinery/pkg/util/clock"
 )
 
 // ExpirationCache implements the store interface

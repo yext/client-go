@@ -19,10 +19,10 @@ limitations under the License.
 package v2beta1
 
 import (
-	v2beta1 "k8s.io/api/autoscaling/v2beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	v2beta1 "github.com/yext/api/autoscaling/v2beta1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/client-go/tools/cache"
 )
 
 // HorizontalPodAutoscalerLister helps list HorizontalPodAutoscalers.

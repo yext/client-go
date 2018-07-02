@@ -21,14 +21,14 @@ package v1alpha1
 import (
 	time "time"
 
-	schedulingv1alpha1 "k8s.io/api/scheduling/v1alpha1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	watch "k8s.io/apimachinery/pkg/watch"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	kubernetes "k8s.io/client-go/kubernetes"
-	v1alpha1 "k8s.io/client-go/listers/scheduling/v1alpha1"
-	cache "k8s.io/client-go/tools/cache"
+	schedulingv1alpha1 "github.com/yext/api/scheduling/v1alpha1"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	runtime "github.com/yext/apimachinery/pkg/runtime"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	internalinterfaces "github.com/yext/client-go/informers/internalinterfaces"
+	kubernetes "github.com/yext/client-go/kubernetes"
+	v1alpha1 "github.com/yext/client-go/listers/scheduling/v1alpha1"
+	cache "github.com/yext/client-go/tools/cache"
 )
 
 // PriorityClassInformer provides access to a shared informer and lister for

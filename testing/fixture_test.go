@@ -25,12 +25,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/watch"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	"github.com/yext/apimachinery/pkg/apis/meta/v1/unstructured"
+	runtime "github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	serializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/apimachinery/pkg/watch"
 )
 
 func getArbitraryResource(s schema.GroupVersionResource, name, namespace string) *unstructured.Unstructured {

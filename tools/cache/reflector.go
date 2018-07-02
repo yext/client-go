@@ -34,15 +34,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/golang/glog"
-	apierrs "k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/clock"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
+	"github.com/yext/glog"
+	apierrs "github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/api/meta"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/clock"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	"github.com/yext/apimachinery/pkg/watch"
 )
 
 // Reflector watches a specified resource and causes all changes to be reflected in the given store.
@@ -164,7 +164,7 @@ func hasPackage(file string, ignoredPackages []string) bool {
 
 // trimPackagePrefix reduces duplicate values off the front of a package name.
 func trimPackagePrefix(file string) string {
-	if l := strings.LastIndex(file, "k8s.io/client-go/pkg/"); l >= 0 {
+	if l := strings.LastIndex(file, "github.com/yext/client-go/pkg/"); l >= 0 {
 		return file[l+len("k8s.io/client-go/"):]
 	}
 	if l := strings.LastIndex(file, "/src/"); l >= 0 {

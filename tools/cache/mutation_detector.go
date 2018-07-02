@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/util/diff"
 )
 
 var mutationDetectionEnabled = false

@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
 )
 
 type AuthProvider interface {

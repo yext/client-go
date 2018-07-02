@@ -68,7 +68,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/yext/client-go/rest"
 )
 
 // Info holds Kubernetes API authorization config.  It is intended

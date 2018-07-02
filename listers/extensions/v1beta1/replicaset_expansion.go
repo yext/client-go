@@ -19,10 +19,10 @@ package v1beta1
 import (
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	extensions "k8s.io/api/extensions/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/yext/api/core/v1"
+	extensions "github.com/yext/api/extensions/v1beta1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 // ReplicaSetListerExpansion allows custom methods to be added to

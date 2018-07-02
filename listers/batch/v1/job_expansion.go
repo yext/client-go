@@ -19,10 +19,10 @@ package v1
 import (
 	"fmt"
 
-	batch "k8s.io/api/batch/v1"
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	batch "github.com/yext/api/batch/v1"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 // JobListerExpansion allows custom methods to be added to

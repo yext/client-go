@@ -19,10 +19,10 @@ package v1beta2
 import (
 	"fmt"
 
-	apps "k8s.io/api/apps/v1beta2"
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	apps "github.com/yext/api/apps/v1beta2"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 // StatefulSetListerExpansion allows custom methods to be added to

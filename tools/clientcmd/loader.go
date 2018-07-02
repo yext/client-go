@@ -27,16 +27,16 @@ import (
 	goruntime "runtime"
 	"strings"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"github.com/imdario/mergo"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	clientcmdlatest "k8s.io/client-go/tools/clientcmd/api/latest"
-	"k8s.io/client-go/util/homedir"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	utilerrors "github.com/yext/apimachinery/pkg/util/errors"
+	restclient "github.com/yext/client-go/rest"
+	clientcmdapi "github.com/yext/client-go/tools/clientcmd/api"
+	clientcmdlatest "github.com/yext/client-go/tools/clientcmd/api/latest"
+	"github.com/yext/client-go/util/homedir"
 )
 
 const (

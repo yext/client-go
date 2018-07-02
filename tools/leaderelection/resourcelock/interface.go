@@ -19,9 +19,9 @@ package resourcelock
 import (
 	"fmt"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
-	"k8s.io/client-go/tools/record"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	corev1 "github.com/yext/client-go/kubernetes/typed/core/v1"
+	"github.com/yext/client-go/tools/record"
 )
 
 const (

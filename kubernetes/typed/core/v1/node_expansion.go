@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/types"
 )
 
 // The NodeExpansion interface allows manually adding extra methods to the NodeInterface.

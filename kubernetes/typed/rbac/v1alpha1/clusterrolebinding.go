@@ -19,12 +19,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/rbac/v1alpha1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	types "k8s.io/apimachinery/pkg/types"
-	watch "k8s.io/apimachinery/pkg/watch"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	v1alpha1 "github.com/yext/api/rbac/v1alpha1"
+	v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	types "github.com/yext/apimachinery/pkg/types"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	scheme "github.com/yext/client-go/kubernetes/scheme"
+	rest "github.com/yext/client-go/rest"
 )
 
 // ClusterRoleBindingsGetter has a method to return a ClusterRoleBindingInterface.

@@ -19,8 +19,8 @@ package v1
 import (
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 // ReplicationControllerListerExpansion allows custom methods to be added to

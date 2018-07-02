@@ -19,10 +19,10 @@ limitations under the License.
 package v1beta2
 
 import (
-	v1beta2 "k8s.io/api/apps/v1beta2"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	v1beta2 "github.com/yext/api/apps/v1beta2"
+	serializer "github.com/yext/apimachinery/pkg/runtime/serializer"
+	"github.com/yext/client-go/kubernetes/scheme"
+	rest "github.com/yext/client-go/rest"
 )
 
 type AppsV1beta2Interface interface {

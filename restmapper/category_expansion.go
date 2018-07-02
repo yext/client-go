@@ -17,8 +17,8 @@ limitations under the License.
 package restmapper
 
 import (
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/discovery"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	"github.com/yext/client-go/discovery"
 )
 
 // CategoryExpander maps category strings to GroupResouces.

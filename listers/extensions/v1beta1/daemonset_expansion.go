@@ -19,11 +19,11 @@ package v1beta1
 import (
 	"fmt"
 
-	apps "k8s.io/api/apps/v1beta1"
-	"k8s.io/api/core/v1"
-	"k8s.io/api/extensions/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	apps "github.com/yext/api/apps/v1beta1"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/api/extensions/v1beta1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/labels"
 )
 
 // DaemonSetListerExpansion allows custom methods to be added to

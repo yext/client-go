@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/yext/api/core/v1"
+	"github.com/yext/apimachinery/pkg/util/httpstream"
+	"github.com/yext/apimachinery/pkg/util/wait"
 )
 
 type fakeReader struct {

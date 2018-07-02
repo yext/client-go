@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/api/extensions/v1beta1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	core "k8s.io/client-go/testing"
+	"github.com/yext/api/extensions/v1beta1"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeScales) Get(kind string, name string) (result *v1beta1.Scale, err error) {

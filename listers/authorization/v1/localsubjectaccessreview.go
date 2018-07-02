@@ -19,10 +19,10 @@ limitations under the License.
 package v1
 
 import (
-	v1 "k8s.io/api/authorization/v1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	v1 "github.com/yext/api/authorization/v1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	"github.com/yext/apimachinery/pkg/labels"
+	"github.com/yext/client-go/tools/cache"
 )
 
 // LocalSubjectAccessReviewLister helps list LocalSubjectAccessReviews.

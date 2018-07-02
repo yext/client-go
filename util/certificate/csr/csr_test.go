@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"testing"
 
-	certificates "k8s.io/api/certificates/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	watch "k8s.io/apimachinery/pkg/watch"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	certutil "k8s.io/client-go/util/cert"
+	certificates "github.com/yext/api/certificates/v1beta1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	watch "github.com/yext/apimachinery/pkg/watch"
+	certificatesclient "github.com/yext/client-go/kubernetes/typed/certificates/v1beta1"
+	certutil "github.com/yext/client-go/util/cert"
 )
 
 func TestRequestNodeCertificateNoKeyData(t *testing.T) {

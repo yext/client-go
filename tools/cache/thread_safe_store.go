@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/yext/apimachinery/pkg/util/sets"
 )
 
 // ThreadSafeStore is an interface that allows concurrent access to a storage backend.

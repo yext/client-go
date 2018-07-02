@@ -21,10 +21,10 @@ limitations under the License.
 package appsv1beta1
 
 import (
-	v1beta1 "k8s.io/api/apps/v1beta1"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	scheme "k8s.io/client-go/scale/scheme"
+	v1beta1 "github.com/yext/api/apps/v1beta1"
+	conversion "github.com/yext/apimachinery/pkg/conversion"
+	runtime "github.com/yext/apimachinery/pkg/runtime"
+	scheme "github.com/yext/client-go/scale/scheme"
 )
 
 func init() {

@@ -19,10 +19,10 @@ package versioned
 import (
 	"fmt"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
-	"k8s.io/apimachinery/pkg/watch"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/serializer/streaming"
+	"github.com/yext/apimachinery/pkg/watch"
 )
 
 // Decoder implements the watch.Decoder interface for io.ReadClosers that

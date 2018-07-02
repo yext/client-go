@@ -19,8 +19,8 @@ limitations under the License.
 package networking
 
 import (
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	v1 "k8s.io/client-go/informers/networking/v1"
+	internalinterfaces "github.com/yext/client-go/informers/internalinterfaces"
+	v1 "github.com/yext/client-go/informers/networking/v1"
 )
 
 // Interface provides access to each of this group's versions.

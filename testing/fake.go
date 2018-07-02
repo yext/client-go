@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/watch"
+	restclient "github.com/yext/client-go/rest"
 )
 
 // Fake implements client.Interface. Meant to be embedded into a struct to get

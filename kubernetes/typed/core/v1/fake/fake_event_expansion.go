@@ -17,11 +17,11 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/runtime"
-	core "k8s.io/client-go/testing"
+	"github.com/yext/api/core/v1"
+	metav1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/fields"
+	"github.com/yext/apimachinery/pkg/runtime"
+	core "github.com/yext/client-go/testing"
 )
 
 func (c *FakeEvents) CreateWithEventNamespace(event *v1.Event) (*v1.Event, error) {

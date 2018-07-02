@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack"
 
-	"k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
+	"github.com/yext/apimachinery/pkg/util/net"
+	restclient "github.com/yext/client-go/rest"
 )
 
 func init() {

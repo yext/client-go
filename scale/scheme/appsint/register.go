@@ -17,10 +17,10 @@ limitations under the License.
 package appsint
 
 import (
-	appsv1beta2 "k8s.io/api/apps/v1beta2"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	scalescheme "k8s.io/client-go/scale/scheme"
+	appsv1beta2 "github.com/yext/api/apps/v1beta2"
+	"github.com/yext/apimachinery/pkg/runtime"
+	"github.com/yext/apimachinery/pkg/runtime/schema"
+	scalescheme "github.com/yext/client-go/scale/scheme"
 )
 
 // GroupName is the group name use in this package

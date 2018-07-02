@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	"k8s.io/api/core/v1"
-	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/yext/api/core/v1"
+	meta_v1 "github.com/yext/apimachinery/pkg/apis/meta/v1"
+	"github.com/yext/apimachinery/pkg/fields"
+	"github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	"github.com/yext/client-go/kubernetes"
+	"github.com/yext/client-go/tools/cache"
+	"github.com/yext/client-go/tools/clientcmd"
+	"github.com/yext/client-go/util/workqueue"
 )
 
 type Controller struct {

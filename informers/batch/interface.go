@@ -19,10 +19,10 @@ limitations under the License.
 package batch
 
 import (
-	v1 "k8s.io/client-go/informers/batch/v1"
-	v1beta1 "k8s.io/client-go/informers/batch/v1beta1"
-	v2alpha1 "k8s.io/client-go/informers/batch/v2alpha1"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
+	v1 "github.com/yext/client-go/informers/batch/v1"
+	v1beta1 "github.com/yext/client-go/informers/batch/v1beta1"
+	v2alpha1 "github.com/yext/client-go/informers/batch/v2alpha1"
+	internalinterfaces "github.com/yext/client-go/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

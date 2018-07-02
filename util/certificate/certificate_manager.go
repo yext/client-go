@@ -27,15 +27,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/glog"
+	"github.com/yext/glog"
 
-	certificates "k8s.io/api/certificates/v1beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	"k8s.io/client-go/util/cert"
-	"k8s.io/client-go/util/certificate/csr"
+	certificates "github.com/yext/api/certificates/v1beta1"
+	"github.com/yext/apimachinery/pkg/api/errors"
+	utilruntime "github.com/yext/apimachinery/pkg/util/runtime"
+	"github.com/yext/apimachinery/pkg/util/wait"
+	certificatesclient "github.com/yext/client-go/kubernetes/typed/certificates/v1beta1"
+	"github.com/yext/client-go/util/cert"
+	"github.com/yext/client-go/util/certificate/csr"
 )
 
 // certificateWaitBackoff controls the amount and timing of retries when the
